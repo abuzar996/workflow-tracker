@@ -1,0 +1,21 @@
+
+.searchContainer{
+
+    display: flex;
+    width: 90%;
+    height: 40px;
+    border: 1px solid rgba(7, 15, 33, 0.1);
+    border-radius: 8px;
+}
+.imageDiv{
+    filter: invert(3%) sepia(97%) saturate(1686%) hue-rotate(214deg) brightness(98%) contrast(99%);
+    padding: 12px 10px 12px 10px
+}
+.inputDiv{
+    border: 0;
+    outline: 0;
+    padding-top:1px ;
+    color:#070F21;
+    font-size: 15px;
+    
+}
