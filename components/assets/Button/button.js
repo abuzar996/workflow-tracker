@@ -1,12 +1,15 @@
 import React,{useState,useEffect} from 'react'
 import styles from './button.module.css';
 import './button.module.css';
-const Button = ({children,size,color}) => {
-    const [className, setClassName] =useState(null);
-  
+import { useSize } from "@/hooks/useSize";
+import { useTheme } from "@/hooks/useTheme";
+const Button = ({children,size,theme,onClick}) => {
+    const btnSize=useSize(size,styles);
+    const btnTheme=useTheme(theme,styles);
   return (
     <button 
-        className={className}
+        className={`${styles.button} ${btnSize} ${btnTheme}`}
+        onClick={onClick}
     >{children}</button>
   )
 }

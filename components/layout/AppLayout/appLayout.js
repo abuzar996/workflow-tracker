@@ -1,18 +1,13 @@
-import Search from "@/components/assets/Search";
-import Button from "@/components/assets/Button";
-import Image from 'next/image'
-import plusIcon from '@/public/Vectors/Plus.svg';
 
-import React,{useState} from 'react'
+import React from 'react';
 
+import Workflow from "@/components/base/Workflow";
+import AppHeader from "@/components/base/AppHeader";
 const AppLayout = ({children}) => {
-  const [searchText,setSearchText] = useState('');
+
   return (
-    <>
-        <Search onChange={(e)=>{setSearchText(e.target.value)}}/>
-        <Button size='lg' color='light'>Clear</Button>
-        <main>{children}</main>
-    </>
+      //  <Workflow/>
+      <AppHeader/>
   )
 }
 export default AppLayout;

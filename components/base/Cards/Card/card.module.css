@@ -1,0 +1,14 @@
+.card{
+
+    width:calc(100% - 20px);
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 6px;
+}
+.wrap{
+    padding-bottom:6px ;
+}
+.styledDiv{
+    padding: 4px;
+}

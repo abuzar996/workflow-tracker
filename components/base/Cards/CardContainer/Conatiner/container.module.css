@@ -1,0 +1,26 @@
+.container{
+    width:100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    overflow-x: hidden;
+    max-height: 75vh;
+}
+.containerFalse{
+    width:100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    overflow-x: hidden;
+    max-height: 100vh;
+}
+.container::-webkit-scrollbar {
+  width: 8px;
+  height:8px;
+}
+ 
+.container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+.container::-webkit-scrollbar-thumb {
+  outline: 1px solid darkgrey;
+}

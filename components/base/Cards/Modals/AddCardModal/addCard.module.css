@@ -1,0 +1,27 @@
+.line{
+    height:0;
+    width:100%;
+    border:1px solid #0e8cff;
+}
+.card{
+    width:calc(100% - 16px);
+    padding: 8px;
+   
+    
+}
+.card2{
+    width:calc(100% - 16px);
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+.input{
+    width:100%;
+    border:1px solid #0e8cff;
+    border-radius: 8px;
+    height:55px
+}
+.selectButton{
+    height:100%;
+    color: aliceblue;
+}

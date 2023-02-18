@@ -1,0 +1,47 @@
+
+.xxs{
+    width:18px;
+    height:18px;
+    border-radius: 50%;
+
+}
+.xxhs{
+    width:16px;
+    height:16px;
+
+}
+.xs{
+    width:24px;
+    height:24px;
+    border-radius: 50%;
+}
+.smh{
+    width:14px;
+    height:14px;
+}
+.mdx{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
+.md{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.lg{
+    width:38px;
+    height:38px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.opaque{
+    filter: invert(6%) sepia(27%) saturate(2456%) hue-rotate(194deg) brightness(97%) contrast(100%);
+}
+.secondary{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(318deg) brightness(104%) contrast(104%);
+}
+.primary{
+    filter: invert(34%) sepia(83%) saturate(1707%) hue-rotate(196deg) brightness(104%) contrast(105%);
+}

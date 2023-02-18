@@ -1,0 +1,13 @@
+.cardbody{
+    background-color: #EEECFA;
+    
+    align-items: center;
+    padding: 12px 8px;
+    gap:8px;
+    border-radius: 8px;
+    justify-content: space-between;
+   
+    overflow-x: hidden;
+    
+    
+}

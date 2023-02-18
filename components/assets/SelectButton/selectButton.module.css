@@ -1,0 +1,39 @@
+.selectButton{
+    display: flex;
+    width: 100%;
+    height:100%;
+    background-color: #fff;
+    padding: 7px 8px;
+    gap: 4px; 
+    border: 1px solid rgba(7, 15, 33, 0.1);
+    border-radius: 6px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+/* Text color */
+
+color: #070F21;
+
+
+}
+.options{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+
+/* Text color */
+
+color: #070F21;
+
+opacity: 0.4;
+}
